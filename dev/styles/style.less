@@ -1,0 +1,51 @@
+@import "bootstrap/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css?family=Handlee|Slabo+27px');
+
+@import "meta-menu.less";
+@import "hemmen.css";
+@import "viani.less";
+@import "font-awesome.css";
+
+
+@color-dark-grey: #686868;
+@color-dark-blue: #2a98d0;
+
+body {
+  background: #fff;
+  font-family: 'Slabo 27px', serif;
+  color: @color-dark-grey;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Handlee', cursive;
+  color: @color-dark-grey;
+}
+
+
+div[data-md2-module="main-visual"] {
+
+  position: absolute;
+  top:0;
+
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  background: -moz-linear-gradient(top, #7db9e8 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7db9e8 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7db9e8 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+  img {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  padding-top: 22vw;
+}
